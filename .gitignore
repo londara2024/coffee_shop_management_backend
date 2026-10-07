@@ -1,0 +1,10 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.iml
+.idea/
+.vscode/
+*.log
+.DS_Store
+.env
+# uploaded product images (app.storage.upload-dir)
+uploads/

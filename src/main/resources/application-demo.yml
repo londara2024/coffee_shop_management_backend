@@ -1,0 +1,5 @@
+# Activate with SPRING_PROFILES_ACTIVE=demo to load sample data (menu, demo customer, orders, inventory)
+# on top of the normal migrations. Never enable this in production.
+spring:
+  flyway:
+    locations: classpath:db/migration,classpath:db/demo
